@@ -13,13 +13,13 @@ export default function TrustSection() {
       img: "https://zofffoods.com/cdn/shop/files/Frame_23_x162.jpg?v=1735988564",
     },
     {
-      title: "Membership Discounts",
-      subtitle: "Join “ZING” and get 40% off",
+      title: "Heritage Quality",
+      subtitle: "Choice of every indian family",
       img: "https://zofffoods.com/cdn/shop/files/Frame_22_1_x162.jpg?v=1735988564",
     },
     {
       title: "Free Shipping",
-      subtitle: "On orders above Rs 249/-",
+      subtitle: "Free delivery available",
       img: "https://zofffoods.com/cdn/shop/files/Frame_23_1_x162.jpg?v=1735988564",
     },
   ];

@@ -1,43 +1,54 @@
 export default function AboutContent() {
-    return (
-      <section className="py-14">
-        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
-          
-          {/* TEXT */}
-          <div>
-            <h2 className="text-3xl font-bold mb-4">
-              Seasoning Life, One Meal at a Time
-            </h2>
-  
-            <p className="text-gray-700 leading-relaxed mb-4">
-              At Raj & Anand Agency, spices are not just ingredients — they are
-              emotions. They bring families together, elevate everyday meals, and
-              preserve the rich traditions of Indian cooking.
-            </p>
-  
-            <p className="text-gray-700 leading-relaxed mb-6">
-              We specialize in delivering authentic, high-quality spices sourced
-              from India’s finest spice-growing regions. From trusted household
-              classics to innovative blends designed for modern kitchens, our
-              products ensure rich aroma, vibrant colour, and unforgettable taste
-              in every dish.
-            </p>
-  
-            <button className="bg-red-600 text-white px-6 py-3 rounded-md font-medium hover:bg-red-700 transition">
-              Learn More
-            </button>
-          </div>
-  
-          {/* IMAGE */}
-          <div>
-            <img
-              src="public/about/1.jpg"
-              alt="About Raj & Anand Masale"
-              className="w-full rounded-lg object-cover"
-            />
-          </div>
+  return (
+    <section
+      className="py-20"
+      style={{
+        background: "linear-gradient(180deg, #FFF5F5 0%, #FFFFFF 100%)",
+      }}
+    >
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-14 items-center">
+
+        {/* IMAGE */}
+        <div className="relative">
+          <img
+            src="/about/about1.jpg"
+            alt="About Raj & Anand Masale"
+            className="w-full h-[420px] object-cover rounded-2xl shadow-xl"
+          />
+
+          {/* subtle border accent */}
+          <div className="absolute inset-0 rounded-2xl ring-1 ring-red-200 pointer-events-none"></div>
         </div>
-      </section>
-    );
-  }
-  
+
+        {/* TEXT */}
+        <div>
+          <h3
+            className="text-3xl md:text-4xl font-extrabold mb-6"
+            style={{
+              color: "#C10A0A",
+              textShadow: "0 1px 3px rgba(193,10,10,0.25)",
+            }}
+          >
+            The Essence of Authentic Indian Flavours
+          </h3>
+
+          <p className="text-gray-700 leading-relaxed text-lg mb-5">
+            At <span className="font-semibold text-gray-900">RajAnand Agency</span>,
+            we believe that spices are more than just ingredients — they are emotions.
+            A pinch of turmeric or a dash of cumin does more than season a dish; it brings
+            families together, elevates everyday meals, and preserves the rich traditions
+            of Indian cooking.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed text-lg">
+            Our journey is rooted in a passion for authenticity. We specialize in sourcing
+            high-quality spices from India’s premier growing regions, ensuring every packet
+            captures the true essence of the land. From trusted household classics to
+            innovative blends crafted for the modern kitchen, our products are defined by
+            their rich aroma, vibrant color, and unforgettable taste.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
