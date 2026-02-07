@@ -1,10 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "kunshmasale.com",
-      "zofffoods.com",
-      "everestspices.com",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "kunshmasale.com",
+      },
+      {
+        protocol: "https",
+        hostname: "zofffoods.com",
+      },
+      {
+        protocol: "https",
+        hostname: "everestspices.com",
+      },
     ],
   },
 };
