@@ -79,7 +79,7 @@ export default function ProductCategories() {
                 />
 
                 {/* OVERLAY */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/20 to-transparent" />
               </div>
 
               {/* CONTENT */}
