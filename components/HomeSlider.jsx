@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 
 const images = [
-  "https://scontent.fpnq13-5.fna.fbcdn.net/v/t39.30808-6/473438773_627238712992619_4032268673460601074_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=2a1932&_nc_ohc=a4J6a5YvgB0Q7kNvwGN0MCD&_nc_oc=AdlZtIfeBP9rW3vScay1sZR-e4YzrYu4IteIChCtZtABLrYXsE_cmxzMPhAsGj7fG4KV3h3-xxQxncheAwzu72kT&_nc_zt=23&_nc_ht=scontent.fpnq13-5.fna&_nc_gid=hSsStOL-BC9HMXM5dNyo6A&oh=00_AfvU-anf6lCXQj1C_Ob-t7T-lh-pdJdwy4PHpBW5NaXF0w&oe=699F0DFE",
-  "https://static.vecteezy.com/system/resources/thumbnails/066/206/039/small/delicate-saffron-strands-sweeping-across-aromatic-cumin-seed-landscape-photo.jpg",
+  "https://static.vecteezy.com/system/resources/thumbnails/032/160/878/small_2x/world-of-flavors-a-flavorful-universe-of-spices-herbs-and-seasonings-ai-generated-photo.jpg",
+  "https://tse4.mm.bing.net/th/id/OIP.1T3RJRHtxCuOrmCqdxpemAHaEP?rs=1&pid=ImgDetMain&o=7&rm=3",
   "https://kunshmasale.com/wp-content/uploads/2024/02/3-1920x964.webp",
   "https://kunshmasale.com/wp-content/uploads/2024/02/3-2-1920x964.webp",
 ];
@@ -24,7 +24,7 @@ export default function HomeSlider() {
     <div className="w-full overflow-hidden">
       <div
         className="relative w-full transition-all duration-700 ease-in-out"
-        style={{ height: "520px" }}   
+        style={{ height: "680px" }}   
       >
         {images.map((img, index) => (
           <img
